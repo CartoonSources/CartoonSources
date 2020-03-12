@@ -6,8 +6,15 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EE237F1F241A27DA00F3B7EB /* Cartoon in Resources */ = {isa = PBXBuildFile; fileRef = EE237F1D241A27DA00F3B7EB /* Cartoon */; };
+		EE237F20241A27DA00F3B7EB /* Video in Resources */ = {isa = PBXBuildFile; fileRef = EE237F1E241A27DA00F3B7EB /* Video */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EE237F06241A24E600F3B7EB /* CartoonSources.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CartoonSources.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE237F1D241A27DA00F3B7EB /* Cartoon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Cartoon; sourceTree = "<group>"; };
+		EE237F1E241A27DA00F3B7EB /* Video */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Video; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +31,8 @@
 		EE237EFD241A24E600F3B7EB = {
 			isa = PBXGroup;
 			children = (
+				EE237F1D241A27DA00F3B7EB /* Cartoon */,
+				EE237F1E241A27DA00F3B7EB /* Video */,
 				EE237F07241A24E600F3B7EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +103,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE237F20241A27DA00F3B7EB /* Video in Resources */,
+				EE237F1F241A27DA00F3B7EB /* Cartoon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
